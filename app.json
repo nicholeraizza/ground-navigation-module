@@ -3,6 +3,7 @@
     "name": "groud-navigation-module",
     "slug": "groud-navigation-module",
     "version": "1.0.0",
+    "scheme": "my-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,6 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": ["expo-router"],
     "ios": {
       "supportsTablet": true
     },
